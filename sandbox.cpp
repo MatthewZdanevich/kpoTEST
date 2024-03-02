@@ -9,5 +9,10 @@ int main() {
 	std::cin >> name;
 	std::cout << "Hello, " << name << " !";
 	
+	std::string lastName;
+	std::cout << "Enter your lastname: ";
+	std::cin >> lastName;
+	std::cout << "Hello, " << name << " " << lastName << " !" << std::endl;
+	
 	return 0;
 }
